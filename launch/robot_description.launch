@@ -2,7 +2,7 @@
 <launch>
 
   <!-- send urdf to param server -->
-  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find udacity_my_robot)/urdf/udacity_bot.xacro'" />
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find slam_project)/urdf/udacity_bot.xacro'" />
 
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     <param name="use_gui" value="false"/>
