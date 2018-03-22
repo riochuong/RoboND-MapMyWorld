@@ -1,3 +1,3 @@
-## RoboND : Localization Project using AMCL
+## RoboND : SLAM(RTABMAP) - MapMyWorld Project 
 
 
