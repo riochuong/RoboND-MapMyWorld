@@ -27,5 +27,4 @@
 output="screen" args="-urdf -param robot_description -model slam_project"/>
    <node name="rviz" pkg="rviz" type="rviz" respawn="false" args=" -d /home/workspace/catkin_ws/src/RoboND-MapMyWorld/config/robot_slam.rviz"/> -->
 
-
 </launch>
